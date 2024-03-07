@@ -54,10 +54,70 @@
 </div>
 
 - Data Cleaning
+  - missing values 
+  - outliers
+  - imputing
+  - data type conversion
+  - data imbalance detection
+  - classifing data into catogrical and numerical
 - Data Pre-Processing
+  - Standardization
+  - Normalization
+  - One-Hot Encoding
+  - Label Encoding
+  - Dummy Data Encoding
 - Feature Engineering
-- Model Buld
+  - mlxtend 
+    - SequentialFeatureSelector
+    - Sequential Backward Selection (SBS)
+    - Sequential Forward Selection (SBS)
+    - Feature Importance Permutation
+    - Feature Scaling
+  - Feature Selection
+  - Feature Extraction
+  - Feature Transformation
+- Explotri Data Analysis (EDA)
+  - univariate analysis
+  - Bivariate analysis
+  - Multivariate Analysis
+  - Pandas-profiling
+- Model Selection
+  - Type of Data
+    - image and video -> oprncv Convolution Nural Network(CNN)
+    - text data or Speach -> (RNN)
+    - Numerical data -> SVM,Logistic Regression,Decision Tree etc
+  - Based on the Task we need to carry out 
+    - Classification task -> SVM,Logistic Regression,Decision Tree etc
+    - Regression Task -> Linear Regression,Random Forest,Polynomial Regression etc
+    - Clustering Task -> K-Means Cluster,Hierarchical Clustering (<span style="color:red">**Unsupervised Learning**</span>) 
+- Model Buld  
+  - Decision Tree
+  - Random Forest
+  - Linear Regression
+    - Mean Absolute Error(MAE),Mean Squired Error(MSE), Root Mean Squired Error(RMSE), R2 Score (Coefficent of Determination),  Adjusted R2 Score 
+    - Gradient Descent (optimization technique)
+  - Logistic Regression
+    - Gradient Descent (optimization technique)
+  - Support Vector Machie (SVM)
+  - Naive Bayes
+  - K-Nearest Neighbors (KNN)
+  - K-Means Cluster
 - Evaluation
+  - Hyperparameter Tuning
+    - GridSearchCV
+    - RandomizedSearchCV
+  - Accuracy Score
+  - Confusion Matrix 
+  - Precision 
+  - Recall 
+  - F1 Score
 - Ensemble Learning
+  - Voting Ensemble
+  - Bagging Ensemble
+  - Boosting Ensemble
+    - Ada-Boosting
+    - Gradient Boosting 
+    - XGBoost
+  - Stacking Ensemble
 
 
